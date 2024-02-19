@@ -1,0 +1,115 @@
+body {
+  background-color: gainsboro;
+  margin: 0;
+  padding: 0;
+}
+body .circle {
+  height: 15rem;
+  width: 15rem;
+  background-color: rgb(157, 19, 157);
+  position: absolute;
+}
+body .cOne {
+  border-bottom-right-radius: 100%;
+  top: -1rem;
+}
+body .cTwo {
+  right: 0px;
+  bottom: 0px;
+  border-top-left-radius: 100%;
+}
+
+.wraper {
+  position: absolute;
+  background-color: rgb(109, 110, 96);
+  padding: 1rem 10px;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25.5%;
+  width: 17rem;
+  border-radius: 6px;
+  color: white;
+  max-height: 305px;
+}
+.wraper h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.wraper .inputBox {
+  display: flex;
+  justify-content: space-between;
+}
+.wraper .inputBox input {
+  padding: 3px 5px;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  width: 10rem;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  color: white;
+}
+.wraper .inputBox input::-moz-placeholder {
+  color: white;
+}
+.wraper .inputBox input::placeholder {
+  color: white;
+}
+.wraper .inputBox button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 2px 10px;
+  opacity: 0.5;
+}
+.wraper .inputBox button:hover {
+  padding: 3px 12px;
+}
+.wraper .inputBox button.active {
+  opacity: 1;
+  cursor: pointer;
+}
+.wraper .parent ol {
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 150px;
+}
+.wraper .parent ol li {
+  font-size: 1.4rem;
+}
+.wraper .parent ol li span {
+  position: absolute;
+  right: 5px;
+  font-size: 1rem;
+  top: 1px;
+  padding: 3px 5px;
+}
+.wraper .parent ol li span i {
+  cursor: pointer;
+}
+.wraper .parent ol li span .fa-trash {
+  margin-left: 1rem;
+  color: rgb(255, 255, 255);
+}
+.wraper .parent ol li span .fa-pencil {
+  color: green;
+}
+.wraper .parent ol li span .fa-trash:hover {
+  font-size: 1.1rem;
+}
+.wraper .parent footer {
+  display: flex;
+  justify-content: space-between;
+}
+.wraper .parent footer button {
+  background-color: rgb(154, 71, 71);
+  color: white;
+  border: none;
+  padding: 2px 15px;
+  cursor: pointer;
+}
+.wraper .parent footer button button.activeC {
+  background-color: red;
+}/*# sourceMappingURL=index.css.map */
